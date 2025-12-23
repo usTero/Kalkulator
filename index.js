@@ -17,3 +17,7 @@ function kalkulasi(){
         display.value = "ERROR";
     }
 }
+
+function deleteDisplay(){
+    display.value = display.value.slice(0, -1);
+}
